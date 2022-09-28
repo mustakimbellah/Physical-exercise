@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Treadmil Running",
+    "photo": "https://media.istockphoto.com/photos/young-man-running-on-a-treadmill-at-home-picture-id1172191646?k=20&m=1172191646&s=612x612&w=0&h=gyC3TlLxIXR_AsIqBpr7Io_WvR45CGiwxALB7Bo-hJI=",
+    "time": "450S"
+  },
+  {
+    "id": 2,
+    "name": "Cycling Exercise",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9wMd5cY98w_zgfb342Bpw7qtitVyxNfckWg&usqp=CAU",
+    "time": "300S"
+  },
+  {
+    "id": 3,
+    "name": "Push-Up",
+    "photo": "https://st2.depositphotos.com/1845763/6944/i/450/depositphotos_69443579-stock-photo-man-doing-push-ups-in.jpg",
+    "time": "300S"
+  },
+  {
+    "id": 4,
+    "name": "Chest Exercises",
+    "photo": "https://barbend.com/wp-content/uploads/2020/09/Best-Chest-Exercises.jpg",
+    "time": "300S"
+  },
+  {
+    "id": 5,
+    "name": "Lose Belly",
+    "photo": "https://media1.popsugar-assets.com/files/thumbor/yawn9336Xhsmky8S03cKq9yOIuU/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2015/08/14/963/n/1922729/f17f3b9e05f3cfef_Scissor-Abs/i/Scissor-Kick.jpg",
+    "time": "300S"
+  },
+  {
+    "id": 6,
+    "name": "Weight Machines",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTk_U9c8v6dH-b3M4Y_pE3FzG2CMnzaLo_gw&usqp=CAU",
+    "time": "300S"
+  }
+]
