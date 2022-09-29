@@ -29,8 +29,10 @@ const Question = () => {
             </div>
 
             <div className='question-ans'>
-                <h3>Question-3: useEffect ?</h3>
-                <p></p>
+                <h3>Question-3: What is the process of data load without useEffectApi ?</h3>
+                <p>useEffect, you invoke side effects from within functional components, which is an important concept to understand in the React Hooks era. Working with the side effects invoked by the useEffect Hook may seem cumbersome at first, but you’ll eventually learn everything makes a lot of sense.
+
+                    The goal of this comprehensive article is to gather information about the underlying concepts of useEffect and, in addition, to provide learnings from my own experience with the useEffect Hook.</p>
             </div>
         </div>
 
