@@ -15,3 +15,24 @@
 .btn:hover{
     background-color: cadetblue;
 }
+.exercise-time{
+    text-align: left;
+    height: 30px;
+    width: 200px;
+    background-color: antiquewhite;
+    border-radius: 3px;
+    padding-left: 6px;
+   
+}
+.btn-activity{
+    text-align: center;
+}
+.activity-btn{
+    margin-top: 25px;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+.activity-btn:hover{
+    background-color: blue;
+}

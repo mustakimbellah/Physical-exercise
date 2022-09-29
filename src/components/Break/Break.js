@@ -12,7 +12,21 @@ const Break = () => {
                 <button className='btn'>40s</button>
                 <button className='btn'>50s</button>
             </div>
+            <div>
+                <h2>Exercise Details</h2>
+                <div className='exercise-time'>
+                    <h4>Exercise time : { }</h4>
+                </div>
+                <div className='exercise-time'>
+                    <h4>Break time : { }</h4>
+                </div>
+            </div>
+
+            <div className='btn-activity'>
+                <button className='activity-btn'>Activity Completed</button>
+            </div>
         </div>
+
     );
 };
 

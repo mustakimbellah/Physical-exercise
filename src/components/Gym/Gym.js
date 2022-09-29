@@ -5,6 +5,7 @@ import Break from '../Break/Break';
 import Myinfo from '../Myinfo/Myinfo';
 import Wha from '../Wha/Wha';
 
+
 const Gym = () => {
     const [exercises, setExercises] = useState([]);
     useEffect(() => {
