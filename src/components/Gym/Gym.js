@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
 import './Gym.css';
+import Break from '../Break/Break';
+import Myinfo from '../Myinfo/Myinfo';
+import Wha from '../Wha/Wha';
 
 const Gym = () => {
     const [exercises, setExercises] = useState([]);
@@ -12,6 +15,7 @@ const Gym = () => {
     return (
         <div className='gym-container'>
             <div className='exercise-container'>
+
                 {
                     exercises.map(exercise => <Exercise
                         key={exercise.id}
@@ -20,7 +24,10 @@ const Gym = () => {
                 }
             </div>
             <div className='cart-container'>
-                <h4>gym time</h4>
+                <Myinfo></Myinfo>
+                <Wha></Wha>
+                <Break></Break>
+
 
             </div>
         </div>

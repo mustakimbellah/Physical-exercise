@@ -1,0 +1,10 @@
+
+.wha-container{
+    display: flex;
+    gap: 25px;
+    padding-left: 10px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,17 @@
+
+.btn-second{
+    display: flex;
+    gap: 4px;
+    
+}
+.btn{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.break-container{
+    margin: 20px 0;
+}
+.btn:hover{
+    background-color: cadetblue;
+}
