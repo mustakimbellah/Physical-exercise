@@ -7,7 +7,7 @@ import logo from '../../images/logo.jpg'
 const Header = () => {
     return (
         <nav className='header'>
-            <img src={logo} alt="" srcset="" />
+            <img src={logo} alt="" />
             <h2>Physical Exercise</h2>
 
 

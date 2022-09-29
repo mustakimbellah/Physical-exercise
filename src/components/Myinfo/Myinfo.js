@@ -8,7 +8,7 @@ const Myinfo = () => {
     return (
         <div className='info-container'>
             <div>
-                <img className='formal-photo' src={formal} alt="" srcset="" />
+                <img className='formal-photo' src={formal} alt="" />
 
             </div>
             <div className='address-container'>

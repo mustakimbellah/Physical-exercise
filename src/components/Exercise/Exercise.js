@@ -7,7 +7,7 @@ const Exercise = (props) => {
     //console.log(timee);
     return (
         <div className='exercise-container-r'>
-            <img src={photo} alt="" srcset="" />
+            <img src={photo} alt="" />
             <div className='exercise-info'>
                 <p className='exercise-name'>{name}</p>
                 <p className='exercise-name2'>Time required: {time}s</p>
