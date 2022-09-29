@@ -1,0 +1,16 @@
+
+.question-container{
+    margin-top: 20px;
+    border-top: 3px solid black;
+}
+.question-ans{
+    margin-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.table{
+    display: flex;
+    gap: 25px;
+    border: 2px solid black;
+    padding: 15px;
+}
