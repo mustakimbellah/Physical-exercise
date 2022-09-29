@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import './Exercise.css';
 
 const Exercise = (props) => {
@@ -14,9 +14,6 @@ const Exercise = (props) => {
             </div>
             <div className='btn'>
                 <button onClick={() => props.ti(time)} className='exercise-btn'>Add to list</button>
-
-
-
             </div>
 
 
