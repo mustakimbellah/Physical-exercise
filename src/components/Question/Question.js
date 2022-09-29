@@ -26,7 +26,11 @@ const Question = () => {
                         <p>Stateless components cannot have State</p>
                     </div>
                 </div>
+            </div>
 
+            <div className='question-ans'>
+                <h3>Question-3: useEffect ?</h3>
+                <p></p>
             </div>
         </div>
 

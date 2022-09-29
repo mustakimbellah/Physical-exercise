@@ -13,6 +13,12 @@ const Gym = () => {
             .then(res => res.json())
             .then(data => setExercises(data));
     }, [])
+    const [timee, setTime] = useState(0);
+    const total = (tim) => {
+        let newTime = parseInt(timee) + parseInt(tim);
+        setTime(newTime);
+
+    }
     return (
         <div className='gym-container'>
             <div className='exercise-container'>
@@ -21,13 +27,14 @@ const Gym = () => {
                     exercises.map(exercise => <Exercise
                         key={exercise.id}
                         exercise={exercise}
+                        ti={total}
                     ></Exercise>)
                 }
             </div>
             <div className='cart-container'>
                 <Myinfo></Myinfo>
                 <Wha></Wha>
-                <Break></Break>
+                <Break time={timee}></Break>
 
 
             </div>
