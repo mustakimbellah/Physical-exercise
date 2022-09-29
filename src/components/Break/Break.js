@@ -15,7 +15,7 @@ const Break = (props) => {
 
     // setBr(localStorage.getItem('set'));
 
-    const notify = () => toast("Congratulations!!! Today Exercise done");
+    const notify = () => toast("Congratulations!!! Today Exercise");
 
     return (
         <>
@@ -31,10 +31,10 @@ const Break = (props) => {
                 <div>
                     <h2>Exercise Details</h2>
                     <div className='exercise-time'>
-                        <h4>Exercise time : {props.time}</h4>
+                        <h4>Exercise time : {props.time} s</h4>
                     </div>
                     <div className='exercise-time'>
-                        <h4>Break time : {br}</h4>
+                        <h4>Break time : {br} s</h4>
                     </div>
                 </div>
 
